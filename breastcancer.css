@@ -1,0 +1,163 @@
+body{
+    background-image:url(/Users/lewis/Desktop/WEB.html/images/hos.jpg);
+    height: 100%;
+}
+.menis{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    transition: all 0.5s ease; 
+}
+.menis .reg{
+    font-size: 25px;
+    font-weight: bold;
+}
+.menis .home{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 90px;
+}
+.menis .home a{
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 0 0 15px;
+    color: white;
+}
+.menis .home a:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 35px;
+    color: purple;
+}
+.menis .get{
+    display: inline-block;
+}
+.menis .get a{
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 0 0 15px;
+    color: white;
+}
+.menis .get a:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 35px;
+    color: purple;
+}
+.logi{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(179, 16, 75);
+    background-color: white;
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+.logi .logo{
+    text-decoration: underline;
+}
+.par{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    padding: 35px;
+    margin-top: 70px;
+}
+h1{
+    font-size: 24px;
+}
+.content .chos{
+    background-color: rgb(63, 146, 124);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.chos:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.content .chos .img{
+    color: white;
+    width: 20%;
+    margin: 0px auto;
+    display: block;
+}
+.content .train{
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.train:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.tranbtn {
+    background-color: #b52119;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px 10px 10px;
+    cursor: pointer;
+  }
+  
+.content .train .imt{
+    color: rgb(233, 76, 76);
+    width: 20%;
+    margin: 0px auto;
+    display: block;
+}
+.content .res{
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.res:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.resbtn {
+    background-color: #b52119;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px 10px 10px;
+    cursor: pointer;
+  }
+.content .res .imr{
+    color: khaki;
+    width: 20px;
+    margin: 0px auto;
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(rgba(239,254,255,0.9) 40%, rgba(254, 255, 244,0.3) 70%, rgba(255,255,255,0.12));
+    height: 4%; 
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  .social ul li a{
+    color: rgb(63, 8, 8);
+    font-size: 25px;
+    padding: 15px;
+  }
+.social ul li a:hover{
+    color: #0087ca;
+    font-size: 25px;
+}

@@ -1,0 +1,34 @@
+body{
+    background-image:url(/Users/lewis/Desktop/WEB.html/images/hos.jpg);
+    height: 100%;
+}
+#form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+#form div {
+  margin-bottom: 20px;
+}
+
+#form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#form input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+}
+
+#form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
